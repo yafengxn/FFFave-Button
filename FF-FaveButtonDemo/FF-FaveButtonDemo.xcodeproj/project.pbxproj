@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE562361EFB59F100F3FCD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562351EFB59F100F3FCD4 /* main.m */; };
+		7FE562391EFB59F100F3FCD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562381EFB59F100F3FCD4 /* AppDelegate.m */; };
+		7FE5623C1EFB59F100F3FCD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5623B1EFB59F100F3FCD4 /* ViewController.m */; };
+		7FE5623F1EFB59F100F3FCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE5623D1EFB59F100F3FCD4 /* Main.storyboard */; };
+		7FE562411EFB59F100F3FCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE562401EFB59F100F3FCD4 /* Assets.xcassets */; };
+		7FE562441EFB59F100F3FCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE562421EFB59F100F3FCD4 /* LaunchScreen.storyboard */; };
+		7FE5624F1EFB59F200F3FCD4 /* FF_FaveButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5624E1EFB59F200F3FCD4 /* FF_FaveButtonDemoTests.m */; };
+		7FE5625A1EFB59F200F3FCD4 /* FF_FaveButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562591EFB59F200F3FCD4 /* FF_FaveButtonDemoUITests.m */; };
+		7FE5626A1EFB5C3100F3FCD4 /* FFFaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562691EFB5C3100F3FCD4 /* FFFaveButton.m */; };
+		7FE562A71EFB9DC600F3FCD4 /* FFFaveIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562A61EFB9DC600F3FCD4 /* FFFaveIcon.m */; };
+		7FE562AB1EFBA85D00F3FCD4 /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562AA1EFBA85D00F3FCD4 /* UIView+FrameExtension.m */; };
+		7FE562B11EFBB97800F3FCD4 /* Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562B01EFBB97800F3FCD4 /* Easing.m */; };
+		7FE562F31F00A89200F3FCD4 /* FFRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562F21F00A89200F3FCD4 /* FFRing.m */; };
+		7FE562F61F00D3E300F3FCD4 /* FFSpark.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE562F51F00D3E300F3FCD4 /* FFSpark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FE5624B1EFB59F200F3FCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE562291EFB59F100F3FCD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE562301EFB59F100F3FCD4;
+			remoteInfo = "FF-FaveButtonDemo";
+		};
+		7FE562561EFB59F200F3FCD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE562291EFB59F100F3FCD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE562301EFB59F100F3FCD4;
+			remoteInfo = "FF-FaveButtonDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FE562311EFB59F100F3FCD4 /* FF-FaveButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FF-FaveButtonDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE562351EFB59F100F3FCD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FE562371EFB59F100F3FCD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FE562381EFB59F100F3FCD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FE5623A1EFB59F100F3FCD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FE5623B1EFB59F100F3FCD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FE5623E1EFB59F100F3FCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FE562401EFB59F100F3FCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FE562431EFB59F100F3FCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FE562451EFB59F100F3FCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE5624A1EFB59F200F3FCD4 /* FF-FaveButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FF-FaveButtonDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE5624E1EFB59F200F3FCD4 /* FF_FaveButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF_FaveButtonDemoTests.m; sourceTree = "<group>"; };
+		7FE562501EFB59F200F3FCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE562551EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FF-FaveButtonDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE562591EFB59F200F3FCD4 /* FF_FaveButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF_FaveButtonDemoUITests.m; sourceTree = "<group>"; };
+		7FE5625B1EFB59F200F3FCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE562681EFB5C3100F3FCD4 /* FFFaveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFaveButton.h; sourceTree = "<group>"; };
+		7FE562691EFB5C3100F3FCD4 /* FFFaveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFaveButton.m; sourceTree = "<group>"; };
+		7FE562A51EFB9DC600F3FCD4 /* FFFaveIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFaveIcon.h; sourceTree = "<group>"; };
+		7FE562A61EFB9DC600F3FCD4 /* FFFaveIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFaveIcon.m; sourceTree = "<group>"; };
+		7FE562A91EFBA85D00F3FCD4 /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
+		7FE562AA1EFBA85D00F3FCD4 /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
+		7FE562AF1EFBB97800F3FCD4 /* Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easing.h; sourceTree = "<group>"; };
+		7FE562B01EFBB97800F3FCD4 /* Easing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Easing.m; sourceTree = "<group>"; };
+		7FE562F11F00A89200F3FCD4 /* FFRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRing.h; sourceTree = "<group>"; };
+		7FE562F21F00A89200F3FCD4 /* FFRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRing.m; sourceTree = "<group>"; };
+		7FE562F41F00D3E300F3FCD4 /* FFSpark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSpark.h; sourceTree = "<group>"; };
+		7FE562F51F00D3E300F3FCD4 /* FFSpark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSpark.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE5622E1EFB59F100F3FCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE562471EFB59F200F3FCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE562521EFB59F200F3FCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE562281EFB59F100F3FCD4 = {
+			isa = PBXGroup;
+			children = (
+				7FE562671EFB5B2C00F3FCD4 /* FF-FaveButton */,
+				7FE562331EFB59F100F3FCD4 /* FF-FaveButtonDemo */,
+				7FE5624D1EFB59F200F3FCD4 /* FF-FaveButtonDemoTests */,
+				7FE562581EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests */,
+				7FE562321EFB59F100F3FCD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE562321EFB59F100F3FCD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE562311EFB59F100F3FCD4 /* FF-FaveButtonDemo.app */,
+				7FE5624A1EFB59F200F3FCD4 /* FF-FaveButtonDemoTests.xctest */,
+				7FE562551EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE562331EFB59F100F3FCD4 /* FF-FaveButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7FE562371EFB59F100F3FCD4 /* AppDelegate.h */,
+				7FE562381EFB59F100F3FCD4 /* AppDelegate.m */,
+				7FE5623A1EFB59F100F3FCD4 /* ViewController.h */,
+				7FE5623B1EFB59F100F3FCD4 /* ViewController.m */,
+				7FE5623D1EFB59F100F3FCD4 /* Main.storyboard */,
+				7FE562401EFB59F100F3FCD4 /* Assets.xcassets */,
+				7FE562421EFB59F100F3FCD4 /* LaunchScreen.storyboard */,
+				7FE562451EFB59F100F3FCD4 /* Info.plist */,
+				7FE562341EFB59F100F3FCD4 /* Supporting Files */,
+			);
+			path = "FF-FaveButtonDemo";
+			sourceTree = "<group>";
+		};
+		7FE562341EFB59F100F3FCD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE562351EFB59F100F3FCD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FE5624D1EFB59F200F3FCD4 /* FF-FaveButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5624E1EFB59F200F3FCD4 /* FF_FaveButtonDemoTests.m */,
+				7FE562501EFB59F200F3FCD4 /* Info.plist */,
+			);
+			path = "FF-FaveButtonDemoTests";
+			sourceTree = "<group>";
+		};
+		7FE562581EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE562591EFB59F200F3FCD4 /* FF_FaveButtonDemoUITests.m */,
+				7FE5625B1EFB59F200F3FCD4 /* Info.plist */,
+			);
+			path = "FF-FaveButtonDemoUITests";
+			sourceTree = "<group>";
+		};
+		7FE562671EFB5B2C00F3FCD4 /* FF-FaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				7FE562A81EFBA7AF00F3FCD4 /* Helpers */,
+				7FE562681EFB5C3100F3FCD4 /* FFFaveButton.h */,
+				7FE562691EFB5C3100F3FCD4 /* FFFaveButton.m */,
+				7FE562A51EFB9DC600F3FCD4 /* FFFaveIcon.h */,
+				7FE562A61EFB9DC600F3FCD4 /* FFFaveIcon.m */,
+				7FE562F11F00A89200F3FCD4 /* FFRing.h */,
+				7FE562F21F00A89200F3FCD4 /* FFRing.m */,
+				7FE562F41F00D3E300F3FCD4 /* FFSpark.h */,
+				7FE562F51F00D3E300F3FCD4 /* FFSpark.m */,
+			);
+			name = "FF-FaveButton";
+			path = "../FF-FaveButton";
+			sourceTree = "<group>";
+		};
+		7FE562A81EFBA7AF00F3FCD4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FE562A91EFBA85D00F3FCD4 /* UIView+FrameExtension.h */,
+				7FE562AA1EFBA85D00F3FCD4 /* UIView+FrameExtension.m */,
+				7FE562AF1EFBB97800F3FCD4 /* Easing.h */,
+				7FE562B01EFBB97800F3FCD4 /* Easing.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE562301EFB59F100F3FCD4 /* FF-FaveButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE5625E1EFB59F200F3FCD4 /* Build configuration list for PBXNativeTarget "FF-FaveButtonDemo" */;
+			buildPhases = (
+				7FE5622D1EFB59F100F3FCD4 /* Sources */,
+				7FE5622E1EFB59F100F3FCD4 /* Frameworks */,
+				7FE5622F1EFB59F100F3FCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FF-FaveButtonDemo";
+			productName = "FF-FaveButtonDemo";
+			productReference = 7FE562311EFB59F100F3FCD4 /* FF-FaveButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FE562491EFB59F200F3FCD4 /* FF-FaveButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE562611EFB59F200F3FCD4 /* Build configuration list for PBXNativeTarget "FF-FaveButtonDemoTests" */;
+			buildPhases = (
+				7FE562461EFB59F200F3FCD4 /* Sources */,
+				7FE562471EFB59F200F3FCD4 /* Frameworks */,
+				7FE562481EFB59F200F3FCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE5624C1EFB59F200F3FCD4 /* PBXTargetDependency */,
+			);
+			name = "FF-FaveButtonDemoTests";
+			productName = "FF-FaveButtonDemoTests";
+			productReference = 7FE5624A1EFB59F200F3FCD4 /* FF-FaveButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FE562541EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE562641EFB59F200F3FCD4 /* Build configuration list for PBXNativeTarget "FF-FaveButtonDemoUITests" */;
+			buildPhases = (
+				7FE562511EFB59F200F3FCD4 /* Sources */,
+				7FE562521EFB59F200F3FCD4 /* Frameworks */,
+				7FE562531EFB59F200F3FCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE562571EFB59F200F3FCD4 /* PBXTargetDependency */,
+			);
+			name = "FF-FaveButtonDemoUITests";
+			productName = "FF-FaveButtonDemoUITests";
+			productReference = 7FE562551EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE562291EFB59F100F3FCD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yafengxn;
+				TargetAttributes = {
+					7FE562301EFB59F100F3FCD4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7FE562491EFB59F200F3FCD4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FE562301EFB59F100F3FCD4;
+					};
+					7FE562541EFB59F200F3FCD4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FE562301EFB59F100F3FCD4;
+					};
+				};
+			};
+			buildConfigurationList = 7FE5622C1EFB59F100F3FCD4 /* Build configuration list for PBXProject "FF-FaveButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FE562281EFB59F100F3FCD4;
+			productRefGroup = 7FE562321EFB59F100F3FCD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE562301EFB59F100F3FCD4 /* FF-FaveButtonDemo */,
+				7FE562491EFB59F200F3FCD4 /* FF-FaveButtonDemoTests */,
+				7FE562541EFB59F200F3FCD4 /* FF-FaveButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE5622F1EFB59F100F3FCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE562441EFB59F100F3FCD4 /* LaunchScreen.storyboard in Resources */,
+				7FE562411EFB59F100F3FCD4 /* Assets.xcassets in Resources */,
+				7FE5623F1EFB59F100F3FCD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE562481EFB59F200F3FCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE562531EFB59F200F3FCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE5622D1EFB59F100F3FCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE5623C1EFB59F100F3FCD4 /* ViewController.m in Sources */,
+				7FE562A71EFB9DC600F3FCD4 /* FFFaveIcon.m in Sources */,
+				7FE562B11EFBB97800F3FCD4 /* Easing.m in Sources */,
+				7FE562391EFB59F100F3FCD4 /* AppDelegate.m in Sources */,
+				7FE562361EFB59F100F3FCD4 /* main.m in Sources */,
+				7FE562AB1EFBA85D00F3FCD4 /* UIView+FrameExtension.m in Sources */,
+				7FE5626A1EFB5C3100F3FCD4 /* FFFaveButton.m in Sources */,
+				7FE562F31F00A89200F3FCD4 /* FFRing.m in Sources */,
+				7FE562F61F00D3E300F3FCD4 /* FFSpark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE562461EFB59F200F3FCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE5624F1EFB59F200F3FCD4 /* FF_FaveButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE562511EFB59F200F3FCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE5625A1EFB59F200F3FCD4 /* FF_FaveButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FE5624C1EFB59F200F3FCD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE562301EFB59F100F3FCD4 /* FF-FaveButtonDemo */;
+			targetProxy = 7FE5624B1EFB59F200F3FCD4 /* PBXContainerItemProxy */;
+		};
+		7FE562571EFB59F200F3FCD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE562301EFB59F100F3FCD4 /* FF-FaveButtonDemo */;
+			targetProxy = 7FE562561EFB59F200F3FCD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FE5623D1EFB59F100F3FCD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE5623E1EFB59F100F3FCD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FE562421EFB59F100F3FCD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE562431EFB59F100F3FCD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE5625C1EFB59F200F3FCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FE5625D1EFB59F200F3FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE5625F1EFB59F200F3FCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FF-FaveButtonDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidao.FF-FaveButtonDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FE562601EFB59F200F3FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FF-FaveButtonDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidao.FF-FaveButtonDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FE562621EFB59F200F3FCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FF-FaveButtonDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidao.FF-FaveButtonDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF-FaveButtonDemo.app/FF-FaveButtonDemo";
+			};
+			name = Debug;
+		};
+		7FE562631EFB59F200F3FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FF-FaveButtonDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidao.FF-FaveButtonDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF-FaveButtonDemo.app/FF-FaveButtonDemo";
+			};
+			name = Release;
+		};
+		7FE562651EFB59F200F3FCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FF-FaveButtonDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidao.FF-FaveButtonDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FF-FaveButtonDemo";
+			};
+			name = Debug;
+		};
+		7FE562661EFB59F200F3FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FF-FaveButtonDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yidao.FF-FaveButtonDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FF-FaveButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE5622C1EFB59F100F3FCD4 /* Build configuration list for PBXProject "FF-FaveButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE5625C1EFB59F200F3FCD4 /* Debug */,
+				7FE5625D1EFB59F200F3FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE5625E1EFB59F200F3FCD4 /* Build configuration list for PBXNativeTarget "FF-FaveButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE5625F1EFB59F200F3FCD4 /* Debug */,
+				7FE562601EFB59F200F3FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE562611EFB59F200F3FCD4 /* Build configuration list for PBXNativeTarget "FF-FaveButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE562621EFB59F200F3FCD4 /* Debug */,
+				7FE562631EFB59F200F3FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE562641EFB59F200F3FCD4 /* Build configuration list for PBXNativeTarget "FF-FaveButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE562651EFB59F200F3FCD4 /* Debug */,
+				7FE562661EFB59F200F3FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE562291EFB59F100F3FCD4 /* Project object */;
+}
